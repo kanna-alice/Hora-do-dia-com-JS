@@ -1,12 +1,12 @@
 body {
-    background: rgb(70, 142, 236); /* Um azul um pouco mais suave fica mais moderno */
+    background: rgb(70, 142, 236); 
     font: normal 15pt Arial;
 }
 
 header {
     color: white;
     text-align: center;
-    padding: 10px; /* Dá um respiro para o título */
+    padding: 10px; 
 }
 
 section {
@@ -18,14 +18,12 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
 
-/* --- ADICIONE ISSO PARA CONSERTAR A IMAGEM --- */
 img {
-    max-width: 100%;  /* Impede a imagem de sair da section */
-    border-radius: 10px; /* Deixa as pontas da imagem arredondadas como a da section */
+    max-width: 100%;  
+    border-radius: 10px; 
     display: block;
-    margin: 10px auto; /* Centraliza a imagem e dá espaço em cima/baixo */
+    margin: 10px auto; 
 }
-/* -------------------------------------------- */
 
 footer {
     color: white;
@@ -37,4 +35,22 @@ footer {
 div {
     text-align: center;
     padding: 15px;
+}
+ 
+@media screen and (max-width: 600px) {
+    section {
+        width: 90%;
+        margin: 20px auto;
+        padding: auto;
+    }
+    body{
+        font-size: 14px;
+    }
+    img{
+        width: 100%;
+    }
+ 
+    footer{
+        display: none;
+    }
 }

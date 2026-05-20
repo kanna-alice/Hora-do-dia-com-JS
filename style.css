@@ -1,0 +1,40 @@
+body {
+    background: rgb(70, 142, 236); /* Um azul um pouco mais suave fica mais moderno */
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 10px; /* Dá um respiro para o título */
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+/* --- ADICIONE ISSO PARA CONSERTAR A IMAGEM --- */
+img {
+    max-width: 100%;  /* Impede a imagem de sair da section */
+    border-radius: 10px; /* Deixa as pontas da imagem arredondadas como a da section */
+    display: block;
+    margin: 10px auto; /* Centraliza a imagem e dá espaço em cima/baixo */
+}
+/* -------------------------------------------- */
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+div {
+    text-align: center;
+    padding: 15px;
+}
